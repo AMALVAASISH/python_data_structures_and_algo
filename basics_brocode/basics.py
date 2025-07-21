@@ -229,8 +229,26 @@
 
 # keyword arguments
 
-def func(c2,c1,c3):
-    print(c1+c2+c3)
+# def func(c2,c1,c3):
+#     print(c1+c2+c3)
 
-func(c3 = 1,c2=0,c1=2)
+# func(c3 = 1,c2=0,c1=2)
 
+
+
+# non local keyword, using this when modifying a variable which inside a func, through a func inside it, it changes the value inside teh 
+# variable and not create a new local variable
+
+def fun1():
+
+    a = 10
+
+    def fun2():
+        nonlocal a
+        a=54
+        print(a)
+    
+    fun2()
+    print(a)
+
+fun1()
