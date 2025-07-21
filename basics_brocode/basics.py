@@ -239,16 +239,32 @@
 # non local keyword, using this when modifying a variable which inside a func, through a func inside it, it changes the value inside teh 
 # variable and not create a new local variable
 
-def fun1():
+# def fun1():
 
-    a = 10
+#     a = 10
 
-    def fun2():
-        nonlocal a
-        a=54
-        print(a)
+#     def fun2():
+#         nonlocal a
+#         a=54
+#         print(a)
     
-    fun2()
-    print(a)
+#     fun2()
+#     print(a)
 
-fun1()
+# fun1()
+
+
+# closure in inner function
+
+# def fun1(a): # outer function
+    
+#     def fun2(): # inner function
+#         print(a)
+#     return fun2  # returning function without parentheses
+
+# closure_func = fun1("Hello, Closure!")
+# closure_func()  # inner function remembers 'a'
+
+
+# https://www.geeksforgeeks.org/python/python-inner-functions/ 
+
