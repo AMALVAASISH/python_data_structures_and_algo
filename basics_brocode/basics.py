@@ -268,3 +268,37 @@
 
 # https://www.geeksforgeeks.org/python/python-inner-functions/ 
 
+# a = 11
+# print(f"the number is {a}")
+
+# print("hi my name is %s" %('amal')) #using the % operator
+
+# print(" the value of ps is %5.4f" %(3.1411)) # 5 - minimum width of the number, 4 is the no of decimal places
+
+# print("we are all equal {}".format("right?"))
+
+# print("{2} {0} {1}". format("you", "sir" ,"thank"))
+
+# print("it can be reused {p} {p}".format(p="again"))
+
+# https://www.geeksforgeeks.org/python/string-formatting-in-python/
+
+# f-strings are faster and better than both %-formatting and str.format().
+
+# import random
+
+# print(random.random())
+
+
+# # using choice() to generate a random number from a
+# # given list of numbers.
+# print("A random number from list is : ", end="")
+# print(random.choice([1, 4, 8, 10, 3]))
+
+# # using randrange() to generate in range from 20
+# # to 50. The last parameter 3 is step size to skip
+# # three numbers when selecting.
+# print("A random number from range is : ", end="")
+# print(random.randrange(20, 50, 3))
+
+

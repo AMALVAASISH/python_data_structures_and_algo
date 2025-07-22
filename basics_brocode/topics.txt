@@ -29,7 +29,7 @@
 #25 (02:09:40​) variable scope 🔬
 #26 (02:13:23​) *args 📦
 #27 (02:16:58​) **kwargs 🎁
-#28 (02:21:17​) string format 💬
+#28 (02:21:17​) string format 💬 --------------->
 #29 (02:33:22​) random numbers 🎲
 #30 (02:36:43​) exception handling ⚠️
 #31 (02:43:40) file detection 📁
@@ -49,7 +49,7 @@
 #45 (04:01:49) method overriding 🙅
 #46 (04:04:14​) method chaining ⛓️
 #47 (04:08:08) super function 🦸
-#48 (04:12:09​) abstract classes 👻
+#48 (04:12:09​) abstract classes 👻 ----------------> till here try to complete
 #49 (04:19:12) objects as arguments 🏍️
 #50 (04:23:20​) duck typing 🦆
 #51 (04:27:38) walrus operator 🦦
