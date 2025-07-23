@@ -38,7 +38,7 @@
 #34 (02:53:45​) copy a file 🖨️
 #35 (02:57:05​) move a file 🗃️
 #36 (03:01:20​) delete a file 🗑️
-#37 (03:06:15​) modules 💌
+#37 (03:06:15​) modules 💌 ---> reached till here on 22-07-25
 #38 (03:10:26) rock, paper, scissors game 🗿
 #39 (03:18:32​) quiz game 💯
 #40 (03:35:45​) Object Oriented Programming (OOP) 🐍
@@ -68,8 +68,38 @@
 #64 (05:39:58​) threading 🧵
 #65 (05:53:31​) daemon threads 😈
 #66 (05:58:19​) multiprocessing ⚡
+#67 ...        logging module
+#68 ...        os module
+#69 ...        watchdog module
+#70 ...        enumerate(), any(), all(), Decorators,Generators and yield
 
 
+📦 Python Packaging & Virtual Environments
+pip, venv, requirements.txt, pyproject.toml
+
+🧪 Testing
+unittest, pytest basics
+
+🔄 Async Programming
+async / await, asyncio (for concurrent IO operations)
+
+📁 Working with JSON, CSV, and APIs
+json module
+
+csv module
+
+requests library for REST APIs
+
+web scrapping. scrappy, beautifulsoap
+
+check pathlib, --> can be used instead of os.path
+
+🧰 Popular Libraries
+pandas, numpy (if you're planning ML/data work)
+
+matplotlib for visualizations
+
+===============================================================
 
 1. Basic Setup & Syntax
 Core Java Topic
@@ -383,13 +413,7 @@ Lambda functions
 map(), filter(), reduce(), zip()
 
 
-enumerate(), any(), all()
 
-
-Decorators
-
-
-Generators and yield
 
 
 Modules and Packages (import, from)
