@@ -456,3 +456,163 @@
 #     sys.exit()
 
 # https://www.geeksforgeeks.org/python/10-interesting-modules-in-python-to-play-with/
+
+
+# duck typing 
+
+# class Bird:
+#     def fly(self):
+#         print("fly with wings")
+
+# class Airplane:
+#     def fly(self):
+#         print("fly with fuel")
+
+# class Fish:
+#     def swim(self):
+#         print("fish swim in sea")
+
+# # Attributes having same name are
+# # considered as duck typing
+# for obj in Bird(), Airplane(), Fish():
+#     obj.fly()
+
+# walrus operator
+
+# Walrus Operator allows you to assign a value to a variable within an expression. This can be useful when you need to use a value multiple times in a loop, but don't want to repeat the calculation.
+
+# The Walrus Operator is represented by the := syntax and can be used in a variety of contexts including while loops and if statements. The Assignment expressions allow a value to be assigned to a variable, even a variable that doesn’t exist yet, in the context of expression rather than as a stand-alone statement.
+
+## The below example is without Walrus Operator
+
+
+# foods = list()
+# while True:
+#   food = input("What food do you like?: ")
+#   if food == "quit":
+#     break
+#   foods.append(food)
+
+# # Below Approach uses Walrus Operator
+
+# foods = list()
+# while (food := input("what food do u like the most")) != "quit":
+#     foods.append(food)
+
+# funcs to variables
+
+# def a():
+#     print("GFG")
+
+# var = a
+# var()
+
+
+# +++++++
+
+# x = 12
+
+# def display():
+#     x = 1
+#     print(x)
+#     print(globals()['x'])
+
+# a = display
+# a()
+
+# higher order functions
+
+# hof can accept another func as argument and also return a func as result
+
+# def greet(func):
+#     return func("hello")
+
+# def uppercase(text):
+#     return text.upper()
+
+# print(greet(uppercase))
+
+
+# def fun(n):
+#     return lambda x : x *n
+
+# double = fun(2)
+# print(double(2))
+
+# built in higher order funcs
+
+# map func
+# A higher-order function that takes another function as an argument and applies it to each element in an iterable, enabling transformation without explicit loops.
+
+# https://www.geeksforgeeks.org/python/higher-order-functions-in-python/ 
+
+# a = [1,2,3,4]
+
+# res = list(map(lambda x : x*3 ,a))
+# print(res)
+
+#filter func
+
+# A higher-order function that accepts a function to evaluate each element, returning only those that satisfy the given condition.
+
+# a  = [1,2,3,4]
+# res =list(filter(lambda x: x %2 == 0, a))
+# print(res)
+
+
+# # sorted func
+# # sorting words based on length
+# a = ["python", "java", "javascript"]
+
+# res = sorted(a, key=len)
+# print(res)
+
+# reduce func
+
+# The reduce(fun,seq) function is used to apply a particular function passed in its argument to all of the list elements mentioned in the sequence passed along
+
+# returns the final single value as output
+
+# from functools import reduce
+
+# a = [1,2,3,4]
+
+# res = reduce(lambda x,y : x+y, a)
+# print(res)
+
+
+# closures
+
+# def counter(start=0):  # higher order function
+#     count = start 
+    
+#     def increment():  # inner function
+#         nonlocal count  # retains access to 'count' even after counter() ends
+#         count += 1
+#         return count
+    
+#     return increment  # returns the inner function
+
+# counter1 = counter(5)  # closure retains count = 5
+# print(counter1())  
+# print(counter1())  
+
+# counter2 = counter(10)  # new closure with count = 10
+# print(counter2())
+
+# lambda funcs
+
+# a =lambda x: x * 2
+# print(a(3))
+
+#lambda funcs with condition checking
+
+# a = lambda x : "Positive" if x > 0 else "Negative" if x < 0 else "Zero"
+# print(a(10))
+
+# lambda func with list comprehensions
+
+li = [lambda arg=x : arg*10 for x in range(1,5)]
+for i in li: 
+    print(i())
+

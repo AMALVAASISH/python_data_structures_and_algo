@@ -41,7 +41,7 @@
 #37 (03:06:15​) modules 💌 ---> reached till here on 22-07-25
 #38 (03:10:26) rock, paper, scissors game 🗿
 #39 (03:18:32​) quiz game 💯
-#40 (03:35:45​) Object Oriented Programming (OOP) 🐍
+#40 (03:35:45​) Object Oriented Programming (OOP) 🐍 ---> have to start from here 28.07.25 (skipping this)
 #41 (03:45:06​) class variables 🚗
 #42 (03:48:54​) inheritance 👪
 #43 (03:55:30​) multilevel inheritance 👴
@@ -51,7 +51,7 @@
 #47 (04:08:08) super function 🦸
 #48 (04:12:09​) abstract classes 👻 ----------------> till here try to complete
 #49 (04:19:12) objects as arguments 🏍️
-#50 (04:23:20​) duck typing 🦆
+#50 (04:23:20​) duck typing 🦆------------------------------------------> (starting here from now 28.07.25)
 #51 (04:27:38) walrus operator 🦦
 #52 (04:31:45​) functions to variables 📛
 #53 (04:35:21​) higher order functions 👑
