@@ -612,7 +612,30 @@
 
 # lambda func with list comprehensions
 
-li = [lambda arg=x : arg*10 for x in range(1,5)]
-for i in li: 
-    print(i())
+# li = [lambda arg=x : arg*10 for x in range(1,5)]
+# for i in li: 
+#     print(i())
 
+# list comprehension 
+
+# a = [1,2,3,4]
+
+# res = [val*2 for val in a]
+# print(res)
+
+# zip func in python
+
+# The zip() function in Python combines multiple iterables such as lists, tuples, strings, dict etc, into a single iterator of tuples. Each tuple contains elements from the input iterables that are at the same position.
+
+
+names = ['amal', 'alan', 'karthik']
+scores = ['9.8', '9.9', '10.0']
+
+res = zip(names,scores)
+print(list(res))
+
+for i in res:
+    print(i) # prints tuples
+
+# https://www.geeksforgeeks.org/python/zip-in-python/
+# https://www.geeksforgeeks.org/python/python-dictionary-comprehension/ 
